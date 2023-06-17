@@ -1,4 +1,4 @@
 #! /bin/bash
 
-echo "Run LegendBot on Koyeb   !!!"
-python3 -m Legendbot
+echo "Run NEIMANBOT on Koyeb   !!!"
+python3 -m Neimanbot
