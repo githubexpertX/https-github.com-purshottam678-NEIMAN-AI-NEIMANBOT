@@ -6,11 +6,11 @@ class Development(Config):
     APP_ID = 25769451
     API_HASH = ""
     # the name to display in your alive message
-    ALIVE_NAME = "LegendBoy"
+    ALIVE_NAME = "Neiman"
     # create any PostgreSQL database (i recommend to use elephantsql) and paste that link here
     DB_URI = ""
     # After cloning the repo and installing requirements do python3 telesetup.py an fill th this
-    LEGEND_STRING = ""
+    NEIMAN_STRING = ""
     # create a new bot in @botfather and fill the following vales with bottoken
     BOT_TOKEN = ""
     # command handler
