@@ -21,7 +21,7 @@ class Config(object):
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
     # Get this value by running python3 stringsetup.py or https://repl.it/@krishna1709/generatestringsession
-    LEGEND_STRING = os.environ.get("LEGEND_STRING", None)
+    NEIMAN_STRING = os.environ.get("LEGEND_STRING", None)
     # Telegram BOT Token and bot username from @BotFather
     BOT_TOKEN = os.environ.get("BOT_TOKEN") or os.environ.get("BOT_TOKEN_BF_HER", None)
     BOT_USERNAME = None
@@ -29,7 +29,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required legend repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/LEGEND-AI/LEGENDUSERBOT"
+        "UPSTREAM_REPO", "https://github.com/NEIMAN-AI/NEIMANUSERBOT"
     )
     # BASIC and MAIN CONFIG VARS
     # for profile default name
@@ -58,7 +58,7 @@ class Config(object):
     # set this will channel id of your custom plugins
     PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL") or 0)
     # set this value with your required name for telegraph plugin
-    TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "legenduserbot")
+    TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "Neimanuserbot")
     # for custom thumb image set this with your required thumb telegraoh link
     THUMB_IMAGE = os.environ.get(
         "THUMB_IMAGE", "https://telegra.ph/file/a0fc34e7cc123f2d82b14.jpg"
@@ -177,7 +177,7 @@ class Config(object):
     VCMODE = os.environ.get("VCMODE", False)
     VCMODE = bool(VCMODE and (VCMODE.lower() != "false"))
     VC_SESSION = os.environ.get("VC_SESSION", None)
-    VC_REPO = os.environ.get("VC_REPO", "https://github.com/LEGEND-AI/VCPLAYER")
+    VC_REPO = os.environ.get("VC_REPO", "https://github.com/NEIMAN-AI/VCPLAYER")
     VC_REPOBRANCH = os.environ.get("VC_REPOBRANCH", "test")
 
 
