@@ -76,5 +76,5 @@ aiofiles
   
   
  git+https://github.com/Jisan09/Telethon 
- git+https://github.com/ITS-LEGENDBOT/py-googletrans 
+ git+https://github.com/ITS-NEIMANBOT/py-googletrans 
  git+https://github.com/goldsmith/Wikipedia
